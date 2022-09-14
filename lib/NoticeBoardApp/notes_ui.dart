@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter_project_3/NotesApp/custom_card.dart';
+import 'package:flutter_project_3/NoticeBoardApp/custom_card.dart';
 import 'package:flutter_project_3/util/colors.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:material_dialogs/material_dialogs.dart';
@@ -26,7 +26,7 @@ class _NotesAppState extends State<NotesApp> {
     return Scaffold(
       backgroundColor: primaryBackgroundColor,
       appBar: AppBar(
-        title: const Text("Notes App",style: TextStyle(color: textColor1),),
+        title: const Text("Notice Board App",style: TextStyle(color: textColor1),),
         flexibleSpace: Container(
           decoration:  const BoxDecoration(
             gradient: LinearGradient(
